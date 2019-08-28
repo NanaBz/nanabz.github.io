@@ -1,0 +1,91 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<title>Sky Light comics samples </title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body bgcolor="powderblue">
+
+<nav>
+<ul>
+<li><a href="index.html">Personal Details</a></li>
+<li><a href="achievments.html">Achievments</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="contactme.html">Contact Me</a></li>
+
+</ul>
+</nav>
+
+<main>
+<h3>I completed JHS at Akosombo International School</h3>
+<h3>Other schools I have attended include; Beacon International School, Martyrs of Uganda, St Marys and St. Lukes school.</h3>
+
+<section>
+<h2>At school I achieved some really great things, at Beacon International School I won a spelling challenge held in the school</h2>
+<h3>At Akosombo International School, I placed third in a 400m race and first in a 4 by 400m race</h3>
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 2</div>
+  <img src="image/interhouse.jpg" style="width:100%" alt="interhouse">
+  <div class="text">Achievments</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 2</div>
+  <img src="image/interhouse2.jpg" style="width:100%">
+  <div class="text">Achievments</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 5 seconds
+}
+</script>
+</section>
+</main>
+
+<footer>
+Copyright &copy Nanakwaku - All rights reserved. 
+
+</footer>
+</body>
+
+
+
+
+
+</html>
+
+

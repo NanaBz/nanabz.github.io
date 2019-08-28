@@ -1,0 +1,65 @@
+Html{
+width: auto 0;
+background-color:white;
+
+}
+
+body{
+width:1200px;
+background-color: powder-blue;
+margin-left: auto;
+margin-right: auto;
+padding:1.5% 0 0 0;
+font-size: 14px;
+font family:Geneva, sans-serif;
+}
+
+
+
+
+footer{
+	font-size: 15px;
+	color: white;
+	background-color:black;
+	position: relative;
+	clear: both;
+	height: 15px;
+	font-weight: normal;
+	text-align: left;
+}
+nav{
+	height: 100px;
+	width: 100%;
+	background: black;
+	float: left;
+}
+
+nav ul {
+display: block;
+list-style-type: none;
+}	
+nav ul li{
+	margin:0;
+	padding:0;
+}
+nav ul li a{
+	float:left;
+	display:block;
+	color: yellow;
+	text-align:center;
+	padding: 30px 22px; /*added new*/
+	text-decoration:none;
+}
+
+nav ul li a:hover{
+	font-size:20px;
+	color: red;
+}
+
+.logostyle{
+	padding-bottom: 40px;
+	float:left;
+}
+
+
+
